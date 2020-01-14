@@ -4,7 +4,7 @@ EC2 Management é uma plataforma que visa expandir a gestão de [instâncias EC2
 
 EC2 Management ofecece funcionalidades que não estão presentes no console EC2 padrão distribuído pela AWS:
 
-1. Agrupamento de instâncias, permitindo que uma ação seja aplicadas sobre mais de uma instância ao mesmo tempo.
+1. Agrupamento de instâncias, permitindo que uma ação seja aplicada sobre mais de uma instância ao mesmo tempo.
 2. Agendamento para iniciar, parar e reiniciar um grupo de instâncias, permitindo otimizar o consumo de recurso e o custo para se manter instâncias em execução na AWS.
 
 ## Por que usar a EC2 Management?
@@ -16,8 +16,8 @@ A resposta é simples, sim. Já a implementação, talvez não tão simples assi
 
 Imagine o seguinte cenário, quatro instâncias EC2, uma executa aplicações utilizadas pelo setor de RH, uma executa aplicações utilizadas pelo setor financeiro, uma é um servidor que executa aplicações disponibilizadas para os seus usuários finais e uma gera relatórios de performance, gerência e BI.
 
-Os colaboradores de sua organização trabalham de segunda a sexta, das 8h as 18h.
-As aplicações em seu servidor precisam estar disponiveis aos seus usuários finais 24 horas nos 7 dias da semana.
+Os colaboradores de sua organização trabalham de segunda a sexta, das 8h às 18h.
+As aplicações em seu servidor precisam estar disponíveis aos seus usuários finais 24 horas nos 7 dias da semana.
 As reuniões estratégicas que utilizam os dados dos relatórios acontecem apenas as segundas-feiras.
 
 No cenário descrito acima, apenas a instância EC2 que executa aplicações disponibilizadas para os seus usuários finais precisa executar 24 horas por dia.
