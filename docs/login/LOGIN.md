@@ -33,3 +33,7 @@ Sua senha de acesso será enviada para o e-mail utilizado para a criação da no
 8. Clique em `Alterar senha`.
 
 Após esse processo, você será redirecionado para a tela de login.
+
+## Próxima etapa
+
+Adicione as permissões necessárias para que plataforma EC2 Management possa interagir com sua conta AWS. O passo a passo pode ser encontrado na [Seção 2 - Configurações](../settings/SETTINGS.md).
