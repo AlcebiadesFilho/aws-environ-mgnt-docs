@@ -27,7 +27,7 @@ O grupo **Admin** já está reservado para diferenciar usuários administradores
 
 ### Removendo um grupo de usuários
 
-1. Em `Grupos -> Deletar Grupo`, digito o nome do grupo que deseja remover.
+1. Em `Grupos -> Deletar Grupo`, digite o nome do grupo que deseja remover.
 2. Clique em `Deletar`.
 
 O grupo **Admin** não pode ser removido.
