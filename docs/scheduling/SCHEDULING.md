@@ -7,7 +7,7 @@ Clique no menu no canto superior direito da tela. Então clique em `Agendamento`
 ![Menu de páginas](../images/scheduling_menu.png)
 
 Agendamentos permitem configurar quando uma ação deve ser executada sobre um ambiente.
-Agendamentos são criados sobre um intervalo de datas e sobre horários específicos.
+Agendamentos são criados sobre intervalos de data e sobre horários específicos.
 É possível adicionar exceções para ajustar o agendamento de acordo com o contexto do ambiente.
 
 ## Criando um agendamento
