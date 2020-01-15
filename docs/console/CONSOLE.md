@@ -11,7 +11,7 @@ O menu de seleção a direita muda a região da qual as instâncias devem ser li
 
 ## O que são ambientes?
 
-Para a plataforma EC2 Management, ambientes são grupos de uma ou mais instâncias. As ações são então realizadas em cima desses ambientes.
+Para a plataforma EC2 Management, ambientes são grupos de uma ou mais instâncias. As ações são realizadas sobre esses ambientes.
 
 O porque uma instância faz parte de um ambiente depende do usuário que criou esse ambiente.
 É esse usuário que conhece sua infraestrutura e sabe o porque determinadas instâncias devem sofrer as mesmas ações ao mesmo tempo.
@@ -63,11 +63,11 @@ Ambientes criados por Tag são mais flexíveis pois, se uma nova instância EC2 
 ## Executando ações sobre ambiente
 
 Para iniciar, parar ou reiniciar um ambiente, clique em `Start`, `Stop` ou `Reboot`, respectivamente.
-Todas essas ações pedirão por confirmação, caso reamente queira executar a ação, clique em `OK` ou precione a tecla `Enter`.
+Todas essas ações pedirão por confirmação, caso realmente queira executar a ação, clique em `OK` ou precione a tecla `Enter`.
 
 Todas a instâncias agrupadas por esse ambiente sofrerão a ação executada.
 
-> :warning: Não há garantia na ordem na qual as instâncias sofrerão a ação.
+> :warning: Não há garantia na ordem das instâncias que sofrerão a ação.
 
 > :warning: Atualmente, não é avaliado se uma instância faz parte de mais de um ambiente.
 
@@ -76,7 +76,7 @@ Todas a instâncias agrupadas por esse ambiente sofrerão a ação executada.
 Em `Ambientes registrados`, clique em `Edit` na linha referente ao ambiente que deseja editar.
 Um formulário será apresentado logo abaixo da tabela de ambientes.
 
-A partir desse ponto, os passos a serem seguir são os mesmo para criar um ambiente.
+A partir desse ponto, os passos a seguir são os mesmos para criar um ambiente.
 
 Mudar o nome do ambiente resulta na criação de um novo ambiente e não na edição do ambiente selecionado.
 Esse comportamento pode ser utilizado para _clonar_ um ambiente.
