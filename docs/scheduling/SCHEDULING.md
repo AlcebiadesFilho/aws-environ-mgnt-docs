@@ -19,8 +19,8 @@ Agendamentos são criados sobre intervalos de data e sobre horários específico
 5. Selecione `Meses e dias da semana` ou `Cron Expression`.
    - Caso tenha selecionado `Meses e dias da semana`, marque os dias da semana e os meses nos quais a ação será executada. Então, digite o horário para iniciar a ação.
    - Caso tenha selecionado `Cron Expression`, digite a expresão "cron" que define o intervalo de datas e o horário no qual a ação será executada.
-6. Em `Exceções`, caso a ação não deva ser executada em dias de feriado nacional, marque a caixa `Feriados`.
-7. Em `Exceções`, caso a ação não deva ser executada em dias específicos:
+6. Em `Exceções`, caso a ação **não** deva ser executada em dias de feriado nacional, marque a caixa `Feriados`.
+7. Em `Exceções`, caso a ação **não** deva ser executada em dias específicos:
    - Clique no menu próximo a opção `Dias específicos`.
    - Escolha uma data e clique em `Add`. Clique no `X` próximo a data para remove-lá das exceções.
    - Repita o processo até que todas as datas de exceção estejam adicionadas.
@@ -31,7 +31,7 @@ Agendamentos são criados sobre intervalos de data e sobre horários específico
 ## Editando um agendamento
 
 1. Clique em `Edit` na linha referente ao agendamento que deseja editar.
-2. Verifique se _`Environment Name`_ e _`Scheduled to`_ correspondem ao agendamento que deseja editar.
+2. Verifique se _`Environment Name`_ e _`Scheduled to`_ correspondem ao agendamento selecionado.
 3. Para ativar a exceção em feriados nacionais, clique no botão ao lado de `Holidays`. _Yes_ significa que a exceção está ativa e a ação **não** será executada em dias de feriado nacional.
 4. Em `Schedule Expression`, modifique o intervalo de data e hora do agendamento.
 5. Em `Exceptions`, para dias específicos:

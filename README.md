@@ -18,7 +18,7 @@ Imagine o seguinte cenário, quatro instâncias EC2, uma executa aplicações ut
 
 Os colaboradores de sua organização trabalham de segunda a sexta, das 8h às 18h.
 As aplicações em seu servidor precisam estar disponíveis aos seus usuários finais 24 horas nos 7 dias da semana.
-As reuniões estratégicas que utilizam os dados dos relatórios acontecem apenas as segundas-feiras.
+As reuniões estratégicas que utilizam os dados dos relatórios acontecem apenas nas segundas-feiras.
 
 No cenário descrito acima, apenas a instância EC2 que executa aplicações disponibilizadas para os seus usuários finais precisa executar 24 horas por dia.
 As instâncias que executam aplicações para o RH e o financeiro precisam apenas estar ligadas durante o horário de expediente e a instância que gera os relatórios precisa ficar ligada por algumas horas no final de semana.
@@ -74,7 +74,7 @@ Acesse ou crie sua conta na plataforma EC2 Management. O passo a passo pode ser 
 
 ## Mande seu feedback!
 
-Gostou da EC2 Management? Ajude-nos a melhora-lá!
+Gostou da EC2 Management? Ajude-nos a melhorá-la!
 Envie um e-mail para [dev@infomach.com.br](mailto:dev@infomach.com.br) e nos diga o que pode ser adicionado, melhorado ou corrigido na plataforma.
 
 Envie também sua opinião sobre o tutorial disponibilizado. Se foi útil, o que poder ser melhorado e se contém erros de conceito ou ortográficos.

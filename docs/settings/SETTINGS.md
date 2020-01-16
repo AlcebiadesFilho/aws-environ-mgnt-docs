@@ -21,7 +21,7 @@ Esse script irá criar a [IAM Role](https://docs.aws.amazon.com/IAM/latest/UserG
 Espere que o processo de criação da _stack_ seja concluído. Você pode acompanhar o progresso pela aba `Events` apresentada pelo AWS CloudFormation.
 
 1. Após a criação estar completa, vá a aba `Outputs` apresentada pelo AWS CloudFormation.
-2. Copie o texto da coluna `Value` na tabela apresentada, por exemplo, `arn:aws:iam::900397181019:role/EC2ManagementRole`.
+2. Copie o texto da coluna `Value` na tabela apresentada, por exemplo, `arn:aws:iam::111122223333:role/EC2ManagementRole`.
 3. Volte a plataforma EC2 Management. Em `AWS Credenciais -> Salvar Credenciais`, no campo `Role ARN`, cole o texto copiado no passo 2.
 4. Clique em `Salvar`.
 

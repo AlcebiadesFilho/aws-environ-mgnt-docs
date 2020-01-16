@@ -11,7 +11,7 @@
 
 Sua senha de acesso será enviada para o e-mail utilizado para a criação da nova conta.
 
-> :warning: **Atenção**: no e-mail que irá receber, há um ponto final após sua senha. Esse ponto final **não** faz parte da senha.
+> :warning: **Atenção**: No e-mail que irá receber, há um ponto final após sua senha. Esse ponto final **não** faz parte da senha.
 
 ## Acessando sua conta
 

@@ -60,7 +60,7 @@ Ambientes criados por Tag são mais flexíveis pois, se uma nova instância EC2 
 6. Repita os passos 4 e 5 até todas as instâncias que deseja agrupar nesse ambiente sejam adicionadas.
 7. Confira a lista de instâncias adicionadas e clique em `OK` para criar o ambiente.
 
-## Executando ações sobre ambiente
+## Executando ações sobre ambientes
 
 Para iniciar, parar ou reiniciar um ambiente, clique em `Start`, `Stop` ou `Reboot`, respectivamente.
 Todas essas ações pedirão por confirmação, caso realmente queira executar a ação, clique em `OK` ou precione a tecla `Enter`.
