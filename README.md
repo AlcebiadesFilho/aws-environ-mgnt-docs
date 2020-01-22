@@ -40,7 +40,7 @@ Grupos de instâncias e agendamentos são feitos através de uma interface gráf
 
 ## Sobre este documento
 
-Este documento é um tutorial para apresentar os primeiros passos para usuários que tem interesse em interagir com a plataforma EC2 Management. Para acessar a plataforma, basta clicar nesse [link](http://ec2.manager.infomach.s3-website-us-east-1.amazonaws.com/login).
+Este documento é um tutorial para apresentar os primeiros passos para usuários que tem interesse em interagir com a plataforma EC2 Management. Para acessar a plataforma, basta clicar nesse [link](http://ec2management.infomach.com.br.s3-website-us-east-1.amazonaws.com/login).
 
 Caso seja sua primeira vez utilizando a plataforma EC2 Management, é recomendado que leia as seções na ordem que serão apresentadas, ou seja, primeiro a seção 1, depois a seção 2, então 3, etc.
 Alguns passos em uma seção podem depender de passos realizados em seções anteriores, por exemplo, para criar um agendamento na seção 4 é necessário antes ter criado um ambiente na seção 3.

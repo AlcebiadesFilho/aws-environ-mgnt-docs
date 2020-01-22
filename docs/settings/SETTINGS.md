@@ -10,7 +10,7 @@ Clique no menu no canto superior direito da tela. Então clique em `Configuraç�
 
 **Acesse sua conta AWS.**
 
-Clique nesse [link](https://us-east-1.console.aws.amazon.com/cloudformation/home?region=us-east-1#/stacks/create/review?templateURL=https://s3.amazonaws.com/ec2.manager.infomach/ec2_management_user_setup.yml&stackName=ec2-management&param_RoleName=EC2ManagementRole&param_TrustedAccountId=900397181019) para carregar o script que será executado pelo [AWS CloudFormation](https://docs.aws.amazon.com/pt_br/cloudformation/?id=docs_gateway).
+Clique nesse [link](https://us-east-1.console.aws.amazon.com/cloudformation/home?region=us-east-1#/stacks/create/review?templateURL=https://s3.amazonaws.com/ec2management.infomach.com.br/ec2_management_user_setup.yml&stackName=ec2-management&param_RoleName=EC2ManagementRole&param_TrustedAccountId=480333639144) para carregar o script que será executado pelo [AWS CloudFormation](https://docs.aws.amazon.com/pt_br/cloudformation/?id=docs_gateway).
 Esse script irá criar a [IAM Role](https://docs.aws.amazon.com/IAM/latest/UserGuide/id_roles.html) que será utilizada pela EC2 Management para manipular as instâncias EC2.
 
 1. Na tela apresentada pelo AWS CloudFormation, deixe os parâmetros preenchidos como estão.
