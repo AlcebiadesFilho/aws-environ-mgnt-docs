@@ -11,8 +11,6 @@
 
 Sua senha de acesso será enviada para o e-mail utilizado para a criação da nova conta.
 
-> :warning: **Atenção**: No e-mail que irá receber, há um ponto final após sua senha. Esse ponto final **não** faz parte da senha.
-
 ## Acessando sua conta
 
 1. Na tela de login, digite um endereço de e-mail cadastrado na plataforma EC2 Management.
