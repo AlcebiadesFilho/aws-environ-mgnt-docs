@@ -39,7 +39,7 @@ Agendamentos são criados sobre intervalos de data e sobre horários específico
    - Repita o processo até que todas as datas de exceção estejam adicionadas.
 6. Clique em `Confirm` para concluir a edição.
 
-## Removendo um ambiente
+## Removendo um agendamento
 
 1. Clique no `X` na linha referente ao agendamento que deseja remover.
 2. Digite `delete` no campo apresentado.

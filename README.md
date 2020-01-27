@@ -75,6 +75,6 @@ Acesse ou crie sua conta na plataforma EC2 Management. O passo a passo pode ser 
 ## Mande seu feedback!
 
 Gostou da EC2 Management? Ajude-nos a melhorá-la!
-Envie um e-mail para [dev@infomach.com.br](mailto:dev@infomach.com.br) e nos diga o que pode ser adicionado, melhorado ou corrigido na plataforma.
+Envie um e-mail para [prod@infomach.com.br](mailto:dev@infomach.com.br) e nos diga o que pode ser adicionado, melhorado ou corrigido na plataforma.
 
 Envie também sua opinião sobre o tutorial disponibilizado. Se foi útil, o que poder ser melhorado e se contém erros de conceito ou ortográficos.
