@@ -6,7 +6,7 @@ Clique no menu no canto superior direito da tela. Então clique em `Console`.
 
 ![Menu de páginas](../images/console_menu.png)
 
-Em `Instâncias` estão listadas as instâncias EC2 criadas em sua conta AWS.
+Em `Instâncias` estão listadas as instâncias EC2 e RDS criadas em sua conta AWS.
 O menu de seleção a direita muda a região da qual as instâncias devem ser listadas, por exemplo, US East (N. Virginia) ou South America (São Paulo). Clique em `List instances` para atualizar a lista.
 
 ## O que são ambientes?
@@ -32,17 +32,17 @@ Assim, cada um desses pares formará um ambiente diferente, como explicado futur
 
 ## Criando um ambiente
 
-> :grey_exclamation: Caso não esteja vendo as instâncias EC2 que deseja, verifique a região selecionada.
+> :grey_exclamation: Caso não esteja vendo as instâncias que deseja, verifique a região selecionada.
 
-> :page_facing_up: Nota: Atualmente, os ambientes criados na EC2 Management apenas agrupam instâncias EC2 de uma mesma região.
+> :page_facing_up: Nota: Atualmente, os ambientes criados na EC2 Management apenas agrupam instâncias de uma mesma região.
 
-> :boom: Cuidado: Uma instância EC2 pode fazer parte de mais de um ambiente. Isso pode causar efeitos colaterais caso ambientes diferentes, sofram ações diferentes, mas possuam instâncias EC2 em comum.
+> :boom: Cuidado: Uma instância EC2 ou RDS pode fazer parte de mais de um ambiente. Isso pode causar efeitos colaterais caso ambientes diferentes, sofram ações diferentes, mas possuam instâncias em comum.
 
 1. Clique em `Add environment`. Um formulário será apresentado logo abaixo da tabela de ambientes.
 2. No campo `Name` entre um nome para o ambiente. O nome deve ter no mínimo 2 caracteres e permite apenas letras, números, hífen (-) e underscore (\_).
 
-É possível agrupar as instâncias EC2 de duas maneiras, manualmente selecionado uma a uma ou através de Tags.
-Ambientes criados por Tag são mais flexíveis pois, se uma nova instância EC2 for criada e ela possuir uma Tag que combina com a Tag utilizada por um ambiente, então essa instância automaticamente fara parte desse ambiente e sofrerá as ações configuradas sobre ele.
+É possível agrupar as instâncias EC2 e RDS de duas maneiras, manualmente selecionado uma a uma ou através de Tags.
+Ambientes criados por Tag são mais flexíveis pois, se uma nova instância for criada e ela possuir uma Tag que combina com a Tag utilizada por um ambiente, então essa instância automaticamente fará parte desse ambiente e sofrerá as ações configuradas sobre ele.
 
 ### Criando um ambiente por TAG
 
@@ -87,7 +87,7 @@ Esse comportamento pode ser utilizado para _clonar_ um ambiente.
 2. Digite o nome do ambiente no campo apresentado.
 3. Clique em `Delete`.
 
-> :warning: Essa operação não pode ser desfeita.
+> :warning: Essa operação não pode ser desfeita, mas é possível criar um novo ambiente com o mesmo nome.
 
 ## Próxima etapa
 

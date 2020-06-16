@@ -1,8 +1,8 @@
 # EC2 Management
 
-EC2 Management é uma plataforma que visa expandir a gestão de [instâncias EC2](https://docs.aws.amazon.com/pt_br/AWSEC2/latest/UserGuide/ec2-instances-and-amis.html) (Elastic Compute Cloud) criadas no ambiente [AWS (Amazon Web Services)](https://aws.amazon.com/pt/what-is-aws/).
+EC2 Management é uma plataforma que visa expandir a gestão de [instâncias EC2](https://docs.aws.amazon.com/pt_br/AWSEC2/latest/UserGuide/ec2-instances-and-amis.html) (Elastic Compute Cloud) e [instâncias RDS](https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/Overview.DBInstance.html) criadas no ambiente [AWS (Amazon Web Services)](https://aws.amazon.com/pt/what-is-aws/).
 
-EC2 Management ofecece funcionalidades que não estão presentes no console EC2 padrão distribuído pela AWS:
+EC2 Management ofecece funcionalidades que não estão presentes nos consoles EC2 e RDS padrões distribuídos pela AWS:
 
 1. Agrupamento de instâncias, permitindo que uma ação seja aplicada sobre mais de uma instância ao mesmo tempo.
 2. Agendamento para iniciar, parar e reiniciar um grupo de instâncias, permitindo otimizar o consumo de recurso e o custo para se manter instâncias em execução na AWS.
@@ -48,7 +48,7 @@ Alguns passos em uma seção podem depender de passos realizados em seções ant
 O tutorial está divido nas seguintes seções:
 
 1. [Login](docs/login/LOGIN.md). Tela inicial onde se acessa uma conta já existente ou se cria uma nova conta.
-2. [Configurações](docs/settings/SETTINGS.md). Onde se adiciona as permissões necessárias para que a plaforma EC2 Management possa manipular instâncias EC2 na AWS.
+2. [Configurações](docs/settings/SETTINGS.md). Onde se adiciona as permissões necessárias para que a plaforma EC2 Management possa manipular instâncias EC2 e RDS na AWS.
 3. [Console](docs/console/CONSOLE.md). Painel para criar ambientes (grupos de instâncias) e realizar ações como, `"iniciar um ambiente"`.
 4. [Agendamento](docs/scheduling/SCHEDULING.md). Onde se cria agendamentos para iniciar, parar ou reiniciar ambientes.
 5. [Usuários](docs/users/USERS.md). Criação, edição e remoção de usuários e grupos de usuários na EC2 Management. Esses usuários são diferentes dos [usuários IAM](https://docs.aws.amazon.com/pt_br/IAM/latest/UserGuide/id_users.html) na AWS.
@@ -64,7 +64,7 @@ EC2 Management interage com serviços da AWS, logo, é necessário possuir uma c
 2. Siga as instruções online.
    > Parte do procedimento de cadastro envolve uma chamada telefônica e a digitação de um código de verificação usando o teclado do telefone
 
-Também é necessário possuir instâncias EC2 já criadas, mas não é obrigatório estarem em execução. Para criar uma instância EC2 na AWS, siga os passos desse link:
+Também é necessário possuir instâncias EC2 e/ou RDS já criadas, mas não é obrigatório estarem em execução. Para criar uma instância EC2 na AWS, siga os passos desse link:
 
 > https://docs.aws.amazon.com/pt_br/AWSEC2/latest/UserGuide/EC2_GetStarted.html
 

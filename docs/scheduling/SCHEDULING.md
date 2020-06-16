@@ -32,12 +32,13 @@ Agendamentos são criados sobre intervalos de data e sobre horários específico
 
 1. Clique em `Edit` na linha referente ao agendamento que deseja editar.
 2. Verifique se _`Environment Name`_ e _`Scheduled to`_ correspondem ao agendamento selecionado.
-3. Para ativar a exceção em feriados nacionais, clique no botão ao lado de `Holidays`. _Yes_ significa que a exceção está ativa e a ação **não** será executada em dias de feriado nacional.
-4. Em `Schedule Expression`, modifique o intervalo de data e hora do agendamento.
-5. Em `Exceptions`, para dias específicos:
+3. Para ativar ou desativar um agendamento, clique no botão ao lado de `Enabled`. _Yes_ significa que o agendamento está ativo e a ação será executada quando o horário do agendamento for alcançado.
+4. Para ativar a exceção em feriados nacionais, clique no botão ao lado de `Holidays`. _Yes_ significa que a exceção está ativa e a ação **não** será executada em dias de feriado nacional.
+5. Em `Schedule Expression`, modifique o intervalo de data e hora do agendamento.
+6. Em `Exceptions`, para dias específicos:
    - Escolha uma data e clique em `Add`. Clique no `X` próximo a data para remove-lá das exceções.
    - Repita o processo até que todas as datas de exceção estejam adicionadas.
-6. Clique em `Confirm` para concluir a edição.
+7. Clique em `Confirm` para concluir a edição.
 
 ## Removendo um agendamento
 
@@ -45,7 +46,7 @@ Agendamentos são criados sobre intervalos de data e sobre horários específico
 2. Digite `delete` no campo apresentado.
 3. Clique em `Delete`.
 
-> :warning: Essa operação não pode ser desfeita.
+> :warning: Essa operação não pode ser desfeita, mas é possível criar novos agendamentos sobre o mesmo ambiente.
 
 ## Próxima etapa
 
